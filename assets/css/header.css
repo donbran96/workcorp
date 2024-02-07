@@ -1,0 +1,46 @@
+header{
+    background: var(--secundario);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+i{
+    font-size: 18px;
+    color: var(--blanco);
+    margin: 0px 5px;
+}
+i::before{
+    margin-right: 5px;
+}
+div.menu a{
+    color: var(--blanco);
+}
+.fila-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fila-2{
+    display: flex;
+}
+.fila-2 .logo{
+    flex-shrink: 0;
+}
+.fila-2 .menu{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.fila-2 .menu ul{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.fila-2 .menu ul li a{
+    display: inline-block;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+.fila-2 .menu ul li a:hover{
+    color: var(--primario);
+}

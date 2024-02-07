@@ -1,0 +1,38 @@
+footer{
+    background: var(--secundario);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: auto;
+}
+footer h2, footer a{
+    color: var(--blanco);
+}
+footer .caja-2 a, footer .caja-3 a{
+    display: block;
+}
+footer .caja-1 .redes-sociales{
+    margin-top: 20px;
+}
+footer h2{
+    margin-bottom: 20px;
+}
+div.wpp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    background: #4aae20;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+div.wpp i{
+    font-size: 50px;
+}
+div.wpp i::before{
+    margin: 0 !important;
+}
