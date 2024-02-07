@@ -1,5 +1,7 @@
 header{
     background: var(--secundario);
+}
+header .contenedor{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -14,27 +16,6 @@ i::before{
 }
 div.menu a{
     color: var(--blanco);
-}
-.fila-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.fila-2{
-    display: flex;
-}
-.fila-2 .logo{
-    flex-shrink: 0;
-}
-.fila-2 .menu{
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-}
-.fila-2 .menu ul{
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
 }
 .fila-2 .menu ul li a{
     display: inline-block;

@@ -19,8 +19,9 @@ body{
     flex-grow: 1;
 }
 .contenedor{
-    max-width: 1440px;
-    padding: 0 20px;
+    max-width: 1440px !important;
+    padding: 0 20px !important;
+    margin: 0 auto !important;
 }
 .margin-vertical{
     margin-top: 60px;
@@ -36,8 +37,8 @@ body{
     padding: 20px;
 }
 .padding-vertical{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 .centrar-hijo{
     display: flex;
@@ -45,10 +46,10 @@ body{
     align-items: center;
 }
 ul{
-    list-style: none;
+    list-style: none !important;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .boton{
     padding: 10px 15px;
