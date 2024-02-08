@@ -1,5 +1,6 @@
 header{
     background: var(--secundario);
+    max-width: 100vw;
 }
 header .contenedor{
     display: grid;
@@ -14,14 +15,17 @@ i{
 i::before{
     margin-right: 5px;
 }
-div.menu a{
-    color: var(--blanco);
+.navbar-nav a:hover{
+    color: var(--primario) !important;
 }
-.fila-2 .menu ul li a{
-    display: inline-block;
-    padding: 10px 15px;
-    transition: all 0.3s ease-in-out;
+header img{
+    max-width: 100%;
 }
-.fila-2 .menu ul li a:hover{
-    color: var(--primario);
+.navbar-nav a{
+    padding: 10px 15px !important;
+}
+@media screen and (max-width:450px) {
+    .navbar-brand{
+        width: 200px !important;
+    }
 }

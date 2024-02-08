@@ -34,7 +34,7 @@ body{
     margin-bottom: 60px;
 }
 .padding-adentro{
-    padding: 20px;
+    padding: 20px !important;
 }
 .padding-vertical{
     padding-top: 20px !important;
@@ -67,4 +67,7 @@ a{
 }
 img{
     vertical-align: top;
+}
+.object-fict{
+    object-fit: cover;
 }

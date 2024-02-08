@@ -33,3 +33,6 @@ div.wpp i{
 div.wpp i::before{
     margin: 0 !important;
 }
+footer img{
+    max-width: 100% !important;
+}

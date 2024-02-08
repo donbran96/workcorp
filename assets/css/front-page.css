@@ -9,8 +9,22 @@
     z-index: 80;
 }
 .hero{
-    margin-top: 148.8px;
+    margin-top: 174.8px;
 }
 .foto-descripcion img{
     width: 100%;
+}
+.aplicaciones i{
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 575px) {
+    .hero {
+        margin-top: 238.8px;
+    }   
+}
+@media screen and (max-width:450px) {
+    .hero {
+        margin-top: 217.19px;
+    } 
 }
