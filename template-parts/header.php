@@ -28,8 +28,8 @@
                     <a href=""><i class="far fa-envelope">hmp@work-corp.com</i></a>
                 </div>
             </div>
-            <div class="fila-2 d-flex">
-                <div class="logo flex-shrink-0">
+            <div class="fila-2 d-flex flex-column flex-lg-row">
+                <div class="logo flex-shrink-0 text-center">
                     <img src="assets/img/logo.png" alt="Logo-Workcorp" width="300">
                 </div>
                 <div class="menu d-flex flex-grow-1 align-items-center">

@@ -1,11 +1,16 @@
-#hero .carousel-inner{
+#hero .carousel-inner, .hero-2{
     height: 80vh;
+}
+.hero-2{
+    margin-top: -80vh !important;
+    z-index: 80;
+}
+.hero-2 h1, .hero-2 h2{
+    z-index: 80;
 }
 .hero{
     margin-top: 148.8px;
 }
-.quienes-somos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+.foto-descripcion img{
+    width: 100%;
 }
