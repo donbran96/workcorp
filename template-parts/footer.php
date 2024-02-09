@@ -47,6 +47,9 @@
             </p>
         </div>
     </div>
+    <div class="padding-adentro bg-secondary">
+        <p class="text-center text-white my-0">Desarrollado por <a href="https://kreativabo.com">Kreativa</a></p>
+    </div>
 </footer>
 <div class="wpp">
     <a href="#">

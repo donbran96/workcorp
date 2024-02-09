@@ -21,11 +21,10 @@
                     <a href=""><i class="fab fa-instagram"></i></a>
                     <a href=""><i class="fab fa-youtube"></i></a>
                     <a href=""><i class="fab fa-linkedin"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
                 </div>
                 <div class="contacto mt-3 mt-sm-0 d-flex flex-column flex-sm-row">
                     <a href=""><i class="fab fa-whatsapp">+591 60095371</i></a>
-                    <a href=""><i class="far fa-envelope">hmp@work-corp.com</i></a>
+                    <a href=""><i class="far fa-envelope mx-5">hmp@work-corp.com</i></a>
                 </div>
             </div>
         <!--<div class="fila-2 d-flex flex-column flex-lg-row">
@@ -47,15 +46,12 @@
             <nav class="navbar navbar-expand-lg">
                 <a href="#" class="navbar-brand"><img src="assets/img/logo.png" alt="Logo-Workcorp" width="300"></a>
                 <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar / Ocultar Menú"><span class="navbar-toggler-icon text-white"></span></button>
-                <div class="collapse navbar-collapse justify-content-center" id="menu">
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="" class="nav-link text-white">Inicio</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-white">Nosotros</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-white">Divisiones</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-white">Servicios</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-white">Proyectos</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-white">Noticias</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-white">Contacto</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-white">APLICACIÓN</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-white">BENEFICIO</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-white">PORTAFOLIO</a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-white">CONTACTO</a></li>
                     </ul>
                 </div>   
             </nav>

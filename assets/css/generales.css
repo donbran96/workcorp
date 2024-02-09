@@ -1,8 +1,10 @@
 :root{
     --primario: #931621;
     --secundario: #2A3D45;
-    --negro: #1c1c1c;
+    --negro: #121212;
     --blanco: #fff;
+    --rosa-claro: #F02146;
+    --rosa-oscuro: #d70a3a;
 }
 *{
     margin: 0;

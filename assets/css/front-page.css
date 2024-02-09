@@ -17,7 +17,12 @@
 .aplicaciones i{
     margin-left: 0 !important;
 }
-
+.beneficios .columna1{
+    background: var(--rosa-oscuro);
+}
+.beneficios .columna2{
+    background: var(--rosa-claro);
+}
 @media screen and (max-width: 575px) {
     .hero {
         margin-top: 238.8px;
